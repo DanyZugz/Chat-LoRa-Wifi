@@ -16,4 +16,7 @@ chatForm.addEventListener('submit', function(event) {
 
 
   chatMessages.appendChild(newMessage);
+
+  // Scroll chat window to the bottom
+  chatMessages.scrollTop = chatMessages.scrollHeight;
 });
